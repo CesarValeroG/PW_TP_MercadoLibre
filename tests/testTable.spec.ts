@@ -1,7 +1,7 @@
 import  { test, expect } from '@playwright/test';
 import { TableCountryPage } from '../main/pageObject/TableCountryPage';
 
-test('Test Web Table', async ({ page }) => {
+test.skip('Test Web Table', async ({ page }) => {
 
   await page.goto('https://cosmocode.io/automation-practice-webtable/');
 

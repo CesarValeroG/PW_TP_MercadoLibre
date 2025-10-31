@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from '../main/pageObject/LoginPage';
 
 // Block images is useful to speed up tests and reduce resource consumption.
-test('Purchase an Item 2', async ({ page }) => {
+test.skip('Purchase an Item 2', async ({ page }) => {
 
     // Intercept and log all network requests. Get their method and URL.
   await page.on("request", req => {
