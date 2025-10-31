@@ -13,6 +13,7 @@ export class LoginPage {
     this.loginButton = page.getByRole('button', { name: 'Login' });
     this.shoppingCartIcon = page.locator('.shopping_cart_link');
    // this.page = page;
+   // this.baseURL = 'https://www.saucedemo.com/';
   }
 
 
